@@ -71,7 +71,7 @@ Struktur direktori proyek ini adalah sebagai berikut:
      ```json
      {
        "username": "john_doe",
-       "password": "password123"
+       "password": "@Password123"
      }
      ```
    - **Response**:
@@ -123,5 +123,5 @@ Data pelanggan, merchant, dan riwayat aktivitas disimpan dalam file JSON yang te
 
 1. **Login**:
    ```bash
-   curl -X POST http://localhost:8080/login -d '{"username":"john_doe","password":"password123"}' -H "Content-Type: application/json"
+   curl -X POST http://localhost:8080/login -d '{"username":"john_doe","password":"@Password123"}' -H "Content-Type: application/json"
    ```
